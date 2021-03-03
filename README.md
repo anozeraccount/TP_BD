@@ -7,20 +7,21 @@ How to implement it ? run the following lines
 
 minikube start
 
-kubectl create deployment hello-color --image=marie203/api-color:testing
+    kubectl create deployment hello-color --image=vamartin/api-color:testing'
 
-kubectl expose deployment hello-color --type=NodePort --port=9007
+    kubectl expose deployment hello-color --type=NodePort --port=9007
 
-If you want to scale it to 30 kubectl scale deployment hello-color --replicas=30
+If you want to scale it to 30   
+    kubectl scale deployment hello-color --replicas=30
 
 then you just have to open it on your browser with the following line
 
-minikube service hello-color
+    minikube service hello-color
 
 and at the end of the url in your browser you copy the following
 
-/?url=https://i.kym-cdn.com/entries/icons/facebook/000/034/772/Untitled-1.jpg
+    /?url=https://i.kym-cdn.com/entries/icons/facebook/000/034/772/Untitled-1.jpg
 
-    you can change the url of the image if you want
+you can change the url of the image if you want
 
 And voila you have the color ratio of your picture
