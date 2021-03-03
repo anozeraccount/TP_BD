@@ -12,7 +12,8 @@ minikube start
 
     kubectl expose deployment hello-color --type=NodePort --port=9007
 
-If you want to scale it to 30   
+If you want to scale it to 30
+
     `kubectl scale deployment hello-color --replicas=30`
 
 then you just have to open it on your browser with the following line
@@ -21,8 +22,6 @@ then you just have to open it on your browser with the following line
 
 and at the end of the url in your browser you copy the following
 
-    /?url=https://i.kym-cdn.com/entries/icons/facebook/000/034/772/Untitled-1.jpg
+    /?url=https://secure.static.tumblr.com/fbcee60fec62c99263a7f0393708e1a9/x0ueovm/wC6nzzau3/tumblr_static_tumblr_static_2ez251jw3pc0kck000sw4kkco_640.jpg
 
-you can change the url of the image if you want
-
-And voila you have the color ratio of your picture
+you can change the url of the image to the image of your choice.
