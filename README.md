@@ -3,10 +3,9 @@ This api takes an image and show you the color ratio (in .json) the following is
 
 The different files are the code I made for this api but you won't need to copy and compile it.
 
-How to implement it ? run the following lines
+start to run the following lines
 
-minikube start
-
+    `minikube start`
     kubectl create deployment hello-color --image=vamartin/api-color:testing
 
     kubectl expose deployment hello-color --type=NodePort --port=9007
