@@ -1,7 +1,8 @@
 # TP_BD
-This api takes an image and show the color ratio (in .json)and this is a tutorial on how to implement it
+This api takes an image and show you the color ratio (in .json)
+This is a tutorial on how to implement it
 
-What's in this git The different files are the code I made for this api but you won't need to copy and compile it.
+The different files are the code I made for this api but you won't need to copy and compile it.
 
 How to implement it ? run the following lines
 
