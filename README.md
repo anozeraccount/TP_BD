@@ -12,7 +12,7 @@ minikube start
     kubectl expose deployment hello-color --type=NodePort --port=9007
 
 If you want to scale it to 30   
-    `kubectl scale deployment hello-color --replicas=30
+    `kubectl scale deployment hello-color --replicas=30`
 
 then you just have to open it on your browser with the following line
 
