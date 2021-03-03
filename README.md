@@ -13,7 +13,7 @@ start to run the following lines
 
 If you want to scale it, n is your desired number of replicas:
 
-    `kubectl scale deployment hello-color --replicas = n`
+    kubectl scale deployment hello-color --replicas = n
 
 then you just have to open it on your browser with the following line
 
