@@ -23,4 +23,4 @@ and at the end of the url in your browser you copy the following
 
     /?url=https://secure.static.tumblr.com/fbcee60fec62c99263a7f0393708e1a9/x0ueovm/wC6nzzau3/tumblr_static_tumblr_static_2ez251jw3pc0kck000sw4kkco_640.jpg
 
-you can change the url of the image to the image of your choice.
+you can change the url of the image to the url of the image of your choice.
