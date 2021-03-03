@@ -5,7 +5,8 @@ The different files are the code I made for this api but you won't need to copy 
 
 start to run the following lines
 
-    `minikube start`
+    minikube start
+    
     kubectl create deployment hello-color --image=vamartin/api-color:testing
 
     kubectl expose deployment hello-color --type=NodePort --port=9007
