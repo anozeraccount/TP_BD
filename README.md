@@ -1,6 +1,5 @@
 # TP_BD
-This api takes an image and show you the color ratio (in .json)
-This is a tutorial on how to implement it
+This api takes an image and show you the color ratio (in .json) the following is a tutorial on how to implement it :
 
 The different files are the code I made for this api but you won't need to copy and compile it.
 
